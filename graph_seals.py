@@ -2,11 +2,13 @@
 Tico's SEAL team analogy for Graphs, BFT, DFT, BFS, & DFS! 
 """
 
-# Scenario: You are a Navy SEAL lieutenant (LT). You and your team have  
+# *Scenario*: You are a Navy SEAL lieutenant (LT). You and your team have  
 #   been deployed to a foreign country, where it is your mission to 
 #   recover a U.S. Ambassador that has been kidnapped by terrorists! 
-#   U.S. intelligence has pin-pointed the abandoned warehouse where the  
-#   Ambassador is currently being held hostage. 
+#   U.S. intel has pin-pointed the abandoned warehouse where the  
+#   Ambassador is currently being held hostage. You have just jumped out of
+#   an aircraft with your parachute, landing stealthily on the roof of this
+#   5-floor abandoned warehouse.
 
 class Queue():
     def __init__(self):
