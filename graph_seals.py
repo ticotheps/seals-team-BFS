@@ -51,7 +51,8 @@ Welcome to Part 1 of Tico's SEALs team analogy for BFT & BFS!
    guy is super motivating and so helpful! I'll drop his Twitter handle and 
    YouTube account in the description box below!
   
-(*Scenario*):
+(*Overview*):
+
   -Okay. So NOW, let's get to the analogy that I came up with while helping 
    some classmates better understand Breadth First Traversal & Breadth 
    First Search during my second week with "Graphs"!
@@ -76,45 +77,75 @@ Welcome to Part 1 of Tico's SEALs team analogy for BFT & BFS!
    about half of the deck before finding "your card", right? Because they
    don't have to keep saying "Is this your card?" for all the remaining
    cards that they haven't flipped over yet, right? Nope! They stop when
-   they find the card they're looking for---Yours!  
+   they find the card they're looking for!  
    
   -Now that you know what "traversal" and "search" mean in this context,
    what does "BREADTH first" mean?
    
   -We can think of "breadth" as meaning "wide", or "broad", or 
    "all-inclusive".
-  
+   
+  -So, if you look at this graph on the left, you can see that the solid
+   blue arrows, which represent "searching" or movement through the graph,
+   are moving in a generally DOWNWARD direction, from the top of the graph
+   to the bottom of the graph, right?
+   
+  -BUT notice that the solid blue arrows don't move diagonally, to the 
+   NEXT level, until EVERY vertex in the PREVIOUS level has been visited 
+   ONCE.
+   
   -So, when I think of "Breadth First SEARCH (or traversal)" I think of 
-   an olympic decathlete who is focused on making sure they are EQUALLY 
+   an olympic decathlete, who is focused on making sure they are EQUALLY 
    good in 10 DIFFERENT track & field events, BEFORE they try to LEVEL UP
    in any ONE of the events.
    
-  -So, if you look at this graph on the left, you can see that the arrows
-   move, in a general downward direction, from the top of the graph to 
-   the bottom of the graph, BUT notice that the arrows don't move to the
-   NEXT level until they've touched EVERY vertex in the previous level.
+  -So, if you look at each VERTEX like a "skill" or "track event", you
+   can see what I mean. The decathlete on the left (or BREADTH FIRST 
+   SEARCH) is more concerned that he reaches "level 2" in EACH of his 
+   events, the 100-meter dash AND the 110-meter hurdles, BEFORE he tries
+   to improve to "level 3" in EITHER of those events.
    
-  -And then you have the opposite, "Depth First SEARCH (or traversal)",
-   which, to me, is more like a "sprinter" or a "marathon runner" because
-   they only have to get good at ONE skill before they LEVEL UP.
+  -On the other hand, you have the olympic sprinter on the right (or DEPTH
+   FIRST SEARCH), who is more concerned about reaching the HIGHEST level
+   in his main event, the 100-meter dash, before trying to LEVEL UP, at 
+   ALL, in another skill of his, the 110-meter hurdles. He's more of an 
+   "ALL IN" or "ALL OUT kind of guy".
    
-
-  -Alright. So, let's pretend you're a Lambda School student, who ALSO happens to be a 
-   part-time Navy SEAL lieutenant (LT).
+  -So now that you have a pretty good idea of what BFT and BFS are doing,
+   at a high level, let's take a look at an example I created while helping
+   some classmates better understand what these algorithms are doing, line
+   by line.
+   
+  (*Scenario*):
   
-  -You and your team of tactical problem solvers have just been 
-   deployed to a foreign country on a special mission. 
+  -Alright. So, let's pretend you're a Lambda School student, who ALSO 
+   happens to be a part-time Navy SEAL lieutenant (LT).
+  
+  -You and your team of tactical problem solvers have just been deployed 
+   to a foreign country on a special mission. 
 
   -Your objective is to recover this U.S. Ambassador that has been 
    kidnapped by a terrorist! 
    
-  -OH NO! How will you solve this problem?
+  -OH NO! How will we know where to begin looking? Not to worry!
   
-  -Not to worry! Tony Stark has recently graduated from Lambda School's Full Stack Web Development
-   program and U.S. intel has pin-pointed the coordinates of the abandoned warehouse
-   where the Ambassador is currently being held hostage. 
-  -You have just jumped out of an aircraft with your parachute, landing stealthily on the roof of this
-   5-floor abandoned warehouse.
+  -Remember this recent cryptic tweet from Lambda School's CEO, Austen?
+   I DE-crypted it!
+  
+  -So check this out! Yep. Turns out Tony Stark was the recent mystery grad 
+   from Lambda School and the C.I.A. just hired Tony for a whopping $110 
+   million/year. My man, Austen, left out a few zeros in his tweet, either
+   because he's super humble or because he must have gotten distracted, mid-
+   tweet, by the Slack bot in the #hiring channel.
+   
+  -Anyways, Tony happens to be on the same project as your SEALS team and he 
+   found the exact location where the terrorist is currently holding our
+   Ambassador---in this abandoned warehouse. Dang! You gotta get me one of 
+   those keyboards, Tony!
+   
+  -So now a stealth chopper has flown right over the target location so you
+   and your team could propel down and search that 5-level abandoned warehouse
+   for our Ambassador.
 """
 
 class Queue():
