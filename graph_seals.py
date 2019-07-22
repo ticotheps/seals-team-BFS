@@ -1,14 +1,68 @@
 """
-Tico's SEAL team analogy for Graphs, BFT, DFT, BFS, & DFS! 
-"""
+Welcome to Part 1 of Tico's SEALs team analogy for BFT & BFS!
 
-# *Scenario*: You are a Navy SEAL lieutenant (LT). You and your team have  
-#   been deployed to a foreign country, where it is your mission to 
-#   recover a U.S. Ambassador that has been kidnapped by terrorists! 
-#   U.S. intel has pin-pointed the abandoned warehouse where the  
-#   Ambassador is currently being held hostage. You have just jumped out of
-#   an aircraft with your parachute, landing stealthily on the roof of this
-#   5-floor abandoned warehouse.
+(*PRELUDE*):
+  -So, you're probably a Lambda School student who has just conquered a 
+   really difficult sprint challenge regarding data structures and 
+   algorithms. That's AWESOME! You should be PUMPED!
+   
+  -But, hold on there, Seinfeld! The "Graphs" portion of the curriculum is
+   NOTORIOUS for being the most difficult for students! This was DEFINITELY
+   the case for "YOURS TRULY", who had to FLEX back and repeat the week to 
+   get more reps on BFS & DFS! And you know what? THAT'S O-KAY!
+   
+  -Regardless of how your classmates might be easily conquering these sprints
+   while you're struggling to keep up, remember that you're only "behind" if 
+   you're comparing yourself to others! If you're putting in the work,
+   "PUSHING YOURSELF" means that you're constantly doing things OUTSIDE of 
+   YOUR perceived abilities. This is the equivalent of putting 275 on the bar
+   and KNOWING that you've only EVER benched 265 successfully on your own before.
+   
+  -So, while I stayed back to do another week of "Graphs", my classmates moved 
+   right on ahead without me. And you probably would have thought that I would be
+   less confident in myself, but you know what? I actually became MORE confident!
+   
+  -I mean, sure, I got more reps and more practice with BFS and DFS, but something
+   else changed! I quit trying to compete and I started to challenge myself
+   to HELP.
+
+  -Instead of competing to get ahead AND STILL falling behind, I tried something
+   different this time around. I spent time helping others understand what I did 
+   NOT during that FIRST week of graphs! And guess what happened? JUST when I 
+   thought I was the one doing the helping, light bulbs started going off for ME! 
+   
+  -So, this is MY opportunity to give back to the Lambda School community that 
+   produced peers who were generous enough to spend countless hours helping 
+   me after class, after a 2nd attempt on a sprint challenge, or when I just 
+   couldn't get it and felt hopeless! I just want to thank a few classmates that
+   come to mind who have REALLY helped me when I struggled the most: Julian Moreno, 
+   Jake Thomas, Brandon Gardner, Lukas Siatka, Kai Lovingfoss, Jawad Hussein, & 
+   Ilya Yelly-ZAR-ov. This is not an exhaustive list, just those that picked me up
+   when I fell the hardest.
+   
+  -By the way, I was inspired by Nick Durbin to make this tutorial. Nick is another 
+   extremely selfless student that I've met at Lambda School, who you should 
+   follow on Twitter and subscribe to on YouTube! The guy is super motivating and so
+   helpful! I'll drop his Twitter handle and YouTube account in the description box below!
+  
+(*Scenario*):
+  -Okay. So, you're a Lambda School student, who ALSO happens to be a part-time Navy SEAL 
+   lieutenant (LT).
+  
+  -You and your team of tactical problem solvers have just been 
+   deployed to a foreign country on a special mission. 
+
+  -Your objective is to recover this U.S. Ambassador that has been 
+   kidnapped by a terrorist! 
+   
+  -OH NO! How will you solve this problem?
+  
+  -Not to worry! Tony Stark has recently graduated from Lambda School's Full Stack Web Development
+   program and U.S. intel has pin-pointed the coordinates of the abandoned warehouse
+   where the Ambassador is currently being held hostage. 
+  -You have just jumped out of an aircraft with your parachute, landing stealthily on the roof of this
+   5-floor abandoned warehouse.
+"""
 
 class Queue():
     def __init__(self):
