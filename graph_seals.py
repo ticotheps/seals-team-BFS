@@ -62,16 +62,42 @@ Welcome to Part 1 of Tico's SEALs team analogy for BFT & BFS!
   
   -What is "traversal"? Well, in the context of "graphs", it just means that 
    we want to visit every vertex in the graph, ONCE. I think a good analogy
-   for this could be imagining a little girl who can't remember WHICH room
-   she left her blankey in. So what does she have to do? She has to look in
-   EACH room, ONCE.
+   for this could be counting out all 52 cards, in a deck, just to make sure
+   you have all 52 cards in there. No matter what game you plan on playing,
+   you'll always visit EACH card, once, to make sure they're all there 
+   before you play, right? (nods head)
    
   -Well, what is "search" then, Tico? When it comes to BFT & BFS, "search" 
    is very similar to "traversal" except you don't HAVE TO visit EVERY 
    vertex ONCE because you can STOP once you find the vertex you're looking
-   for. Using the "blankey" analogy, I think of the little girl planning to
-   look in all 4 rooms of her house, but she finds the blankey in the
-   second room, so she doesn't have to look at rooms 3 and 4.
+   for. So, using the "cards" analogy, you could think of someone who isn't
+   very good at magic tricks doing a card trick on you where they
+   continually ask you, "Is this your card?" until they've gone through
+   about half of the deck before finding "your card", right? Because they
+   don't have to keep saying "Is this your card?" for all the remaining
+   cards that they haven't flipped over yet, right? Nope! They stop when
+   they find the card they're looking for---Yours!  
+   
+  -Now that you know what "traversal" and "search" mean in this context,
+   what does "BREADTH first" mean?
+   
+  -We can think of "breadth" as meaning "wide", or "broad", or 
+   "all-inclusive".
+  
+  -So, when I think of "Breadth First SEARCH (or traversal)" I think of 
+   an olympic decathlete who is focused on making sure they are EQUALLY 
+   good in 10 DIFFERENT track & field events, BEFORE they try to LEVEL UP
+   in any ONE of the events.
+   
+  -So, if you look at this graph on the left, you can see that the arrows
+   move, in a general downward direction, from the top of the graph to 
+   the bottom of the graph, BUT notice that the arrows don't move to the
+   NEXT level until they've touched EVERY vertex in the previous level.
+   
+  -And then you have the opposite, "Depth First SEARCH (or traversal)",
+   which, to me, is more like a "sprinter" or a "marathon runner" because
+   they only have to get good at ONE skill before they LEVEL UP.
+   
 
   -Alright. So, let's pretend you're a Lambda School student, who ALSO happens to be a 
    part-time Navy SEAL lieutenant (LT).
